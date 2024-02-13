@@ -153,8 +153,7 @@ body {
     width: 80%;
 }
       .footer-homepage {
-    position: absolute;
-    bottom: 0;
+    display: none;
   }
 .booking-footer {
   bottom: 0;
