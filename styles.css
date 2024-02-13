@@ -138,7 +138,7 @@ body {
     display: none;
   }
   .main-image-mobile {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     position: absolute;
   }
@@ -152,6 +152,10 @@ body {
     top: 40%;
     width: 80%;
 }
+      .footer-homepage {
+    position: absolute;
+    bottom: 0;
+  }
 .booking-footer {
   bottom: 0;
 }
