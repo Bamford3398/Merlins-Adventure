@@ -92,7 +92,7 @@ body {
     text-align: center;
     /* padding: 10px; */
     position: absolute;
-    /* bottom: 0; */
+    bottom: 0;
     width: 100%;
     max-width: 1600px;
     p {
@@ -104,6 +104,15 @@ body {
     position: fixed;
     bottom: 0;
   }
+
+  .booking-footer {
+    bottom: 0;
+    position: relative;
+  }
+  .gallery-footer {
+    position: relative;
+  }
+  
   
   /* Media Query for Responsive Design */
   @media (max-width: 768px) {
@@ -138,7 +147,11 @@ body {
     display: none;
   }
   .main-image-mobile {
-    height: 75vh;
+    /* background-image: url("assets/MA_1707_018-portrait.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 90vh;
     width: 100%;
     position: absolute;
   }
@@ -152,12 +165,13 @@ body {
     top: 40%;
     width: 80%;
 }
-      .footer-homepage {
-    display: none;
-  }
 .booking-footer {
   bottom: 0;
+  position: absolute;
 }
+/* .footer-homepage {
+  display: none;
+} */
 .button {
   text-decoration: underline;
   top: 46%;
@@ -168,6 +182,7 @@ body {
     font-style: italic;
     font-weight: 600;
 }
+
   }
 
   @media (min-width: 768px) {
